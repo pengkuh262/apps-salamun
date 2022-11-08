@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+#intro {
+  background-image: url(../public/wp1.png);
+  background-size: contain;
+  height: 717px;
+  background-repeat: no-repeat;
+}
+
+#service {
+  background-image: url(../public/wp2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-biru {
+  background-color: #145a9b;
+}
+
+.shadow2 {
+  box-shadow: 0 14px 15px 0 rgba(0, 0, 0, 0.2),
+    0 -8px 28px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
